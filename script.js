@@ -6,7 +6,7 @@ function showSection(id, el) {
     document.querySelector('.ledger-page').scrollTop = 0;
 }
 
-function toggleTheme() {
+function toggleTheme() { 
     const isDark = document.body.classList.toggle('dark-theme');
     localStorage.setItem('sheriffTheme', isDark ? 'dark' : 'light');
     updateThemeLabel(isDark);

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAINING MANUAL BLUEFORD 1901</title>
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Flag_of_the_United_States_%281896%E2%80%931908%29.svg/1024px-Flag_of_the_United_States_%281896%E2%80%931908%29.svg.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="book-container">
+        <nav class="ledger-sidebar">
+            <div class="ledger-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Flag_of_the_United_States_%281896%E2%80%931908%29.svg/1024px-Flag_of_the_United_States_%281896%E2%80%931908%29.svg.png" class="federal-seal">
+                <h2>Training manual blueford</h2>
+                <small>ESTABLISHED 1901</small>
+            </div>
+            <ul class="ledger-menu">
+                <li class="active" onclick="showSection('preambule', this)">I. PRÉAMBULE</li>
+                <li onclick="showSection('deontologie', this)">II. ÉTHIQUE & DROITS</li>
+                <li onclick="showSection('organigramme', this)">III. STRUCTURE D'ÉTAT</li>
+                <li onclick="showSection('renforts', this)">IV. TRANSMISSIONS</li>
+                <li onclick="showSection('lois', this)">V. LOIS & DÉFINITIONS</li>
+                <li onclick="showSection('insolites', this)">VI. LOIS TERRITORIALES</li>
+                <li onclick="showSection('sanctions', this)">VII. TYPES DE SANCTIONS</li>
+                <li onclick="showSection('culture', this)">VIII. CULTURE GÉNÉRALE</li>
+                <li onclick="showSection('illegal', this)">IX. SAISIES & BRACONNAGE</li>
+                <li onclick="showSection('mandats', this)">X. MANDATS & PROCÉDURES</li>
+                <li onclick="showSection('juridiction', this)">XI. CARTE DES JURIDICTIONS</li>
+                <li onclick="showSection('federal-proc', this)">XII. RÈGLES FÉDÉRALES</li>
+                <li onclick="showSection('formation-jugement', this)">XIII. FORMATION JUGEMENT</li>
+            </ul>
+            <div class="settings-area">
+                <div class="theme-switch" onclick="toggleTheme()">
+                    <span id="theme-label">MODE NUIT</span>
+                    <div class="toggle-bg"><div class="toggle-circle"></div></div>
+                </div>
+            </div>
+        </nav>
+
+        <main class="ledger-page">
+            <section id="preambule" class="content active">
+                <h1 class="page-title">PRÉAMBULE OFFICIEL</h1>
+                <div class="doc-block-white">
+                    <p class="dropcap">L</p>
+                    <p>Le présent livret de formation a été élaboré afin d’accompagner l’ensemble des membres du Bureau du Shérif dans le développement de leurs compétences professionnelles. Il constitue l'unique outil de référence visant à garantir l’uniformité et l’excellence au sein des territoires de l'Union.</p>
+                </div>
+            </section>
+
+            <section id="deontologie" class="content">
+                <h1 class="page-title">CODE DE DÉONTOLOGIE</h1>
+                <div class="alert-box" style="text-align:center; margin-bottom:20px;">
+                    <strong>"La meilleure arme d’un homme de loi : Le cerveau"</strong>
+                </div>
+                <div class="item-card">
+                    <ul class="clean-list">
+                        <li><strong>LOYAUTÉ :</strong> Les hommes doivent être loyaux envers leur pays + gouvernement. Travailler avec dévouement + défendre lois + constitution des USA.</li>
+                        <li><strong>INTÉGRITÉ :</strong> Les hommes doivent agir avec honnêteté + intégrité, respectant les normes éthiques. Éviter conflits d'intérêts + comportement qui pourrait nuire à la réputation.</li>
+                        <li><strong>DISCRÉTION :</strong> Les hommes doivent être discrets dans leur travail, éviter de divulguer des infos sensibles ou confidentielles = compromettre la sécurité du pays ou des collègues. Eviter la discrimination ou traitenement injuste.</li>
+                        <li><strong>PROFESSIONNALISME :</strong> Preuve de professionnalisme > comportement, langage + apparence, représenter dignement le pays.</li>
+                        <li><strong>RESPONSABILITÉ :</strong> Assumer les responsabilités de leurs actions + décisions. Travail transparent + honnête.</li>
+                        <li><strong>DÉVOUEMENT :</strong> Dévouement envers le travail, travailler avec diligence + accomplir missions + protéger pays & citoyens.</li>
+                        <li><strong>RESPECT :</strong> Valeur fondamentale envers chaque citoyen et institution.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="organigramme" class="content">
+                <h1 class="page-title">STRUCTURE GOUVERNEMENTALE</h1>
+                <div class="dual-grid">
+                    <div class="item-card">
+                        <h3>BRANCHE EXÉCUTIVE</h3>
+                        <ul class="clean-list">
+                            <li><strong>Président :</strong> Franklin Delano Roosevelt</li>
+                            <li><strong>Gouverneur :</strong> Mindy Wolfy-Taima</li>
+                            <li><strong>Administrateur fédéral :</strong> Réginald Orson</li>
+                            <li><strong>Ltn. Gouverneur :</strong> Auguste de Guise</li>
+                            <li><strong>Trésorier d'État :</strong> Aristo Lochmacher</li>
+                            <li><strong>Vice Trésorière :</strong> Éléonore Cross</li>
+                            <li><strong>Dir. Santé d'État :</strong> Joe Meyer</li>
+                            <li><strong>Dir. Culture & Éducation :</strong> Willow Mckenzie</li>
+                        </ul>
+                    </div>
+                    <div class="item-card">
+                        <h3>SÉCURITÉ, FÉDÉRAL & JUSTICE</h3>
+                        <ul class="clean-list">
+                            <li><strong>Dir. Sécurité d'État :</strong> Grégory Pilop</li>
+                            <li><strong>Dir. Adjointe Sécurité :</strong> Josette Whitmore</li>
+                            <li><strong>Dir. Justice :</strong> Hannibal Whitmore</li>
+                            <li><strong>Juge Principal :</strong> Miroslaw Toplasky</li>
+                            <li><strong>Dir. US Marshal :</strong> Jake Rogers</li>
+                            <li><strong>Dir. Adjointe US Marshal :</strong> Angela McKenzie</li>
+                            <li><strong>Dir. Sisika :</strong> Charles Corbel</li>
+                            <li><strong>Dir. réserve Fédérale :</strong> N/A</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="renforts" class="content">
+                <h1 class="page-title">TRANSMISSIONS & COMPÉTENCES</h1>
+                <div class="transmission-box">
+                    <div class="telegraph-mock">[EFFECTIFS REQUIS] + [RAISON] + [LIEU RDV]</div>
+                </div>
+                <div class="item-card">
+                    <h3>CADRE DE JURIDICTION</h3>
+                    <p><strong>Shériff / Policier :</strong> Restreints à la sécurité de leur <strong>comté</strong> uniquement.</p>
+                    <p><strong>Marshal :</strong> Restreints à l'ensemble de l'<strong>État</strong> (Tous comtés).</p>
+                </div>
+            </section>
+
+            <section id="lois" class="content">
+                <h1 class="page-title">LOIS & DÉFINITIONS JURIDIQUES</h1>
+                <div class="dual-grid">
+                    <div class="item-card">
+                        <h3>LOIS SPÉCIALES</h3>
+                        <p><strong>Loi Taylor :</strong> Anti-monopole. Nationalisation possible.</p>
+                        <p><strong>Loi Mackenzie :</strong> Pas d'impôts si CA < 500$/semaine.</p>
+                        <p><strong>Loi Lazy Jack :</strong> Droits des réserves indiennes.</p>
+                        <p><strong>Loi Martiale :</strong> Fouille libre (Gouverneur uniquement).</p>
+                    </div>
+                    <div class="item-card">
+                        <h3>INFRACTIONS CLÉS</h3>
+                        <p><strong>Abus de Pouvoir :</strong> Mission publique hors prérogatives.</p>
+                        <p><strong>Vice de Procédure :</strong> Non-respect des règles (Droits, mandats).</p>
+                        <p><strong>Usurpation :</strong> Identité/titre sans consentement.</p>
+                        <p><strong>Entrave :</strong> Ralentir/nuire à l'exécution d'un mandat.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="insolites" class="content">
+                <h1 class="page-title">LOIS TERRITORIALES SPÉCIFIQUES</h1>
+                <div class="item-card">
+                    <ul class="clean-list">
+                        <li><strong>Noms Interdits :</strong> Jack, Bernard, Roger, Victor, Jean, Louis (Cheval/Animal) -> <em>Mise en danger d'autrui</em>.</li>
+                        <li><strong>Sifflement :</strong> Interdit de siffler sous l'eau -> <em>Atteinte à la pudeur</em>.</li>
+                        <li><strong>Train & Tunnel :</strong> Interdit de renifler, cracher ou saigner -> <em>Terrorisme</em>.</li>
+                        <li><strong>Cris en ville :</strong> Interdit de crier le mot "Ragondin" -> <em>Appel à la révolte</em>.</li>
+                        <li><strong>Saloon :</strong> Interdit de demander une direction devant un saloon -> <em>Agression sur citoyen</em>.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="sanctions" class="content">
+                <h1 class="page-title">ÉCHELLE DES SANCTIONS</h1>
+                <div class="procedure-grid">
+                    <div class="step-box"><strong>CONTRAVENTION (7x)</strong><p>Dégradation, Vol, Braconnage, Ordre public.</p></div>
+                    <div class="step-box"><strong>DÉLIT (4x)</strong><p>Stupéfiants, Braquage commerce, Atteinte autorité.</p></div>
+                    <div class="step-box"><strong>CRIME (2x)</strong><p>Braquage Banque, Assassinat, Parjure, Atteinte à l'État.</p></div>
+                </div>
+                <div class="item-card" style="border-color: #a94442; margin-top: 20px;">
+                    <h3>RÉCIDIVE INFAMANTE</h3>
+                    <p>La répétition volontaire d'actes graves mène à la <strong>PENDRAISON</strong> après validation par un Juge.</p>
+                </div>
+            </section>
+
+            <section id="culture" class="content">
+                <h1 class="page-title">CULTURE GÉNÉRALE DU PAYS</h1>
+                <div class="item-card">
+                    <h3>LE DRAPEAU NATIONAL</h3>
+                    <p><strong>45 Étoiles :</strong> Représentent les 45 États souverains de l'Union.</p>
+                    <p><strong>13 Bandes :</strong> Représentent les 13 colonies originelles.</p>
+                </div>
+                <div class="dual-grid">
+                    <div class="item-card">
+                        <h3>HISTOIRE</h3>
+                        <p><strong>Indépendance :</strong> 1782.</p>
+                        <p><strong>G. Washington :</strong> Premier Président élu en 1789.</p>
+                    </div>
+                    <div class="item-card">
+                        <h3>GÉOGRAPHIE</h3>
+                        <p><strong>Mississippi :</strong> Plus long fleuve.</p>
+                        <p><strong>Président Actuel :</strong> Theodore Roosevelt (26e).</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="illegal" class="content">
+                <h1 class="page-title">SAISIES & BRACONNAGE</h1>
+                <div class="dual-grid">
+                    <div class="item-card">
+                        <h3>STUPÉFIANTS (Amendes/u)</h3>
+                        <table class="item-table">
+                            <tr><td>OPIUM / MORPHINE / COCAÏNE</td><td>$3.00 / u</td></tr>
+                            <tr><td>CANNABIS / TORSADE</td><td>$1.00 / u</td></tr>
+                            <tr><td>MOONSHINE</td><td>$0.50 (Saisie)</td></tr>
+                        </table>
+                    </div>
+                    <div class="item-card">
+                        <h3>MARCHANDISES ILLÉGALES</h3>
+                        <p><strong>Objets prohibés (Saisie directe) :</strong></p>
+                        <ul class="clean-list">
+                            <li>Outils de crochetage</li>
+                            <li>Armes de trafic</li>
+                            <li>Calumets de contrebande</li>
+                            <li>Toutes marchandises interdites</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-card">
+                    <h3>ESPÈCES PROTÉGÉES</h3>
+                    <div class="animal-grid">
+                        <div class="animal-item">Ours</div>
+                        <div class="animal-item">Cougar</div>
+                        <div class="animal-item">Panthère</div>
+                        <div class="animal-item">Alligator</div>
+                        <div class="animal-item">Grizzli</div>
+                        <div class="animal-item">Puma</div>
+                        <div class="animal-item">Panthère</div>
+                        <div class="animal-item">Bison</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="mandats" class="content">
+                <h1 class="page-title">MANDATS & PROCÉDURES</h1>
+                <table class="item-table full-width-table">
+                    <thead>
+                        <tr><th>TYPE</th><th>DESCRIPTION</th><th>SIGNATAIRE</th><th>EFFET</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><strong>ARRÊT</strong></td><td>Appréhender un suspect.</td><td>JUGE</td><td>Arrestation immédiate</td></tr>
+                        <tr><td><strong>PERQUISITION</strong></td><td>Fouille de propriété.</td><td>JUGE</td><td>Saisie de preuves</td></tr>
+                        <tr><td><strong>COMPARUTION</strong></td><td>Ordre de se présenter.</td><td>JUGE</td><td>Comparution obligatoire</td></tr>
+                        <tr><td><strong>DÉPÔT</strong></td><td>Détention provisoire.</td><td>JUGE / PROC.</td><td>Durée indéterminée</td></tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="juridiction" class="content">
+                <h1 class="page-title">CARTE DES JURIDICTIONS</h1>
+                <div class="map-wrapper">
+                    <div class="map-container">
+                        <img src="https://media.discordapp.net/attachments/906248585216151572/1441854032145809468/d.png?ex=6944ecf5&is=69439b75&hm=d36401bb6481de009f1d12e82dc038129d2a78ad349c5ba51ded8bc5bf575a46&" class="map-img">
+                    </div>
+                </div>
+            </section>
+
+            <section id="federal-proc" class="content">
+                <h1 class="page-title">RÈGLES FÉDÉRALES DE PROCÉDURE</h1>
+                <div class="item-card">
+                    <h3>I - TITRES HONORIFIQUES</h3>
+                    <p><strong>Juges :</strong> "Votre Honneur". <strong>Avocats :</strong> "Maître". <strong>FDO :</strong> Grade ou Titre spécifique.</p>
+                </div>
+                <div class="item-card">
+                    <h3>II - PROCÉDURE JUDICIAIRE</h3>
+                    <p>Le <strong>Procès Verbal</strong> doit respecter le modèle d'État (sinon vice de procédure). Le dossier complet doit être partagé <strong>12h avant le jugement</strong>.</p>
+                    <p><strong>Primes :</strong> Validées par un juge. Fédérale (Juge Principal) ou Comté (Juge de Comté).</p>
+                </div>
+                <div class="item-card">
+                    <h3>III - DÉROULEMENT DU JUGEMENT</h3>
+                    <p>1. Ouverture -> 2. Appel -> 3. Déclarations -> 4. Témoins/Preuves -> 5. Plaidoiries -> 6. Délibération -> 7. Verdict -> 8. Clôture.</p>
+                </div>
+            </section>
+
+            <section id="formation-jugement" class="content">
+                <h1 class="page-title">FORMATION JUGEMENT – FORCES DE L’ORDRE</h1>
+                <div class="alert-box" style="margin-bottom:20px;">
+                    <strong>OBJECTIF :</strong> Mener une audience de A à Z côté accusation, soutenir une affaire de manière claire, structurée et légale.
+                </div>
+
+                <div class="dual-grid">
+                    <div class="item-card">
+                        <h3>I - RÔLE DE L'AGENT</h3>
+                        <p>L'agent représente l’accusation en l'absence de procureur. Il présente les faits et preuves, ne juge pas et ne décide pas de la peine. <strong>Il ne peut pas témoigner.</strong></p>
+                    </div>
+                    <div class="item-card">
+                        <h3>II - PRÉPARATION & QUALIFICATION</h3>
+                        <p>Dossier minimum : Identité, chronologie, chefs d'accusation, preuves, témoignages, mandats. Toujours annoncer : Fait brut -> Qualification -> Éléments aggravants.</p>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <h3>III - PREUVES ET TÉMOIGNAGES</h3>
+                    <p><strong>Preuves :</strong> Une preuve écrite ne devient recevable que lorsqu'elle est lue en audience. Une preuve sans mandat peut être rejetée.</p>
+                    <p><strong>Agents :</strong> Rester factuel, pas d'opinion ni d'exagération. <strong>Civils :</strong> Rappeler l'obligation de vérité.</p>
+                </div>
+
+                <div class="item-card">
+                    <h3>IV - LES OBJECTIONS JUDICIAIRES</h3>
+                    <div class="animal-grid">
+                        <div class="law-item"><strong>IRRECEVABILITÉ :</strong> Procédure ou loi non respectée.</div>
+                        <div class="law-item"><strong>HORS SUJET :</strong> Aucun lien avec l'affaire.</div>
+                        <div class="law-item"><strong>SUGGESTIVE :</strong> Oriente la réponse du témoin.</div>
+                        <div class="law-item"><strong>OUÏ-DIRE :</strong> Témoignage indirect (rapporté).</div>
+                        <div class="law-item"><strong>SPÉCULATION :</strong> Opinion ou supposition.</div>
+                        <div class="law-item"><strong>MANQUE DE FONDEMENT :</strong> Faits non établis au préalable.</div>
+                        <div class="law-item"><strong>COMPOSÉE/AMBIGUË :</strong> Question floue ou multiple.</div>
+                        <div class="law-item"><strong>RÉPÉTITION :</strong> Déjà répondu.</div>
+                        <div class="law-item"><strong>PRÉJUDICIABLE :</strong> Influence émotionnelle pure.</div>
+                        <div class="law-item"><strong>ATTEINTE AUX DROITS :</strong> Violation défense/vie privée.</div>
+                    </div>
+                </div>
+
+                <div class="item-card">
+                    <h3>V - POSTURE ET ÉVALUATION</h3>
+                    <p>Neutralité et respect du tribunal. Réponses calmes aux questions du juge. Validation finale par un dossier fictif et une audience simulée (Barème : 13/20).</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
